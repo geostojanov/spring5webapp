@@ -32,7 +32,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         initData();
     }
 
-    private void initData(){
+    private void initData() {
         Publisher publisher1 = new Publisher("BooksWay", "123 Main Street");
         publisherRepository.save(publisher1);
 
